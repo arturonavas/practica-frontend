@@ -1,0 +1,75 @@
+*{
+    outline: none;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(197, 224, 231);
+}
+
+.top{
+    padding: 45px;
+    text-align: center;
+    background: #a7cddf;
+    color: rgb(2, 30, 34);
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+
+.top:hover{
+    outline: none;
+	box-shadow: 3px 0px 30px rgba(0, 0, 0, 0.575);
+    transition: ease 1s;
+    transition: ease 1s;
+}
+
+.top{
+    outline: none;
+    transition: ease 1.5s;
+
+}
+
+.formulario{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.boton{
+    border-radius: 5px;
+    background-color: rgb(177, 179, 204);
+    border: 0;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-left: 2.5%;
+    transform: translateX(-2.5%);
+    transition: background  0.5s;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+.nombre-input{
+    border-radius: 5px;
+    background-color: rgb(177, 179, 204);
+    border: 0;
+    width: 150px;
+	transition: .3s ease all;
+}
+
+.nombre-input:focus {
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(0, 0, 0, 0.575);
+}
+
+.edad-input{
+    border-radius: 5px;
+    background-color: rgb(177, 179, 204);
+    border: 0;
+    width: 150px;
+}
+
+.edad-input:focus {
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(0, 0, 0, 0.575);
+}
